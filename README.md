@@ -1,11 +1,9 @@
 # 🌊 MediaFlow
 
-[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
-[![Contributors](https://img.shields.io/github/contributors/AshkanWatson/MediaFlow.svg)](https://github.com/AshkanWatson/MediaFlow/graphs/contributors)
-[![Forks](https://img.shields.io/github/forks/AshkanWatson/MediaFlow.svg)](https://github.com/AshkanWatson/MediaFlow/network/members)
-[![Stars](https://img.shields.io/github/stars/AshkanWatson/MediaFlow.svg)](https://github.com/AshkanWatson/MediaFlow/stargazers)
-[![Downloads](https://img.shields.io/github/downloads/AshkanWatson/MediaFlow/total.svg)](https://github.com/AshkanWatson/MediaFlow/releases)
-[![Latest Release](https://img.shields.io/github/v/release/AshkanWatson/MediaFlow.svg)](https://github.com/AshkanWatson/MediaFlow/releases)
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-black.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+[![Contributors](https://img.shields.io/github/contributors/AshkanWatson/MediaFlow?style=flat-square&color=black)](https://github.com/AshkanWatson/MediaFlow/graphs/contributors)
+[![Downloads](https://img.shields.io/github/downloads/AshkanWatson/MediaFlow/total?style=flat-square&label=Downloads&color=black)](https://github.com/AshkanWatson/MediaFlow/releases)
+[![Latest Release](https://img.shields.io/github/v/release/AshkanWatson/MediaFlow?style=flat-square&color=black)](https://github.com/AshkanWatson/MediaFlow/releases)
 
 **MediaFlow** is a **cross-platform media downloader** built with **Flutter** (and optional **Python backend**) that lets you **download videos and images from multiple platforms**:  
 
