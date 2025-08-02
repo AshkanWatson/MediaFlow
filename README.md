@@ -42,7 +42,8 @@ Get the **latest release** for your platform from our [Releases Page](https://gi
 | **Linux** | `.AppImage` | [Download](https://github.com/AshkanWatson/MediaFlow/releases/latest/download/MediaFlow.AppImage) |
 | **Source Code** | `.zip` | [Download](https://github.com/AshkanWatson/MediaFlow/archive/refs/heads/main.zip) |
 
-> ⚡ **Tip:** Upload your builds to the **latest GitHub release** with these exact names to make the above links work automatically.
+> [!TIP]
+> Upload your builds to the **latest GitHub release** with these exact names to make the above links work automatically.
 
 ---
 
