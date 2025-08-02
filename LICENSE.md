@@ -1,6 +1,6 @@
 # MediaFlow – Non-Commercial Open Project
 
-Copyright (c) 2025 [AshkanWatson]
+Copyright (c) 2025 AshkanWatson
 
 This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0).
 

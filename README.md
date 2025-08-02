@@ -1,49 +1,121 @@
-![YouTube_Downloader](https://user-images.githubusercontent.com/87552247/209785951-339c79c8-c1be-46f8-ba96-3430f9cc7f98.png)
+# 🌊 MediaFlow
 
-[![GitHub all releases](https://img.shields.io/github/downloads/AshkanWatson/YouTubeDn/total?label=Downloads&style=for-the-badge&color=black)](https://github.com/AshkanWatson/YouTubeDn/releases)
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+[![Contributors](https://img.shields.io/github/contributors/AshkanWatson/MediaFlow.svg)](https://github.com/AshkanWatson/MediaFlow/graphs/contributors)
+[![Forks](https://img.shields.io/github/forks/AshkanWatson/MediaFlow.svg)](https://github.com/AshkanWatson/MediaFlow/network/members)
+[![Stars](https://img.shields.io/github/stars/AshkanWatson/MediaFlow.svg)](https://github.com/AshkanWatson/MediaFlow/stargazers)
+[![Downloads](https://img.shields.io/github/downloads/AshkanWatson/MediaFlow/total.svg)](https://github.com/AshkanWatson/MediaFlow/releases)
+[![Latest Release](https://img.shields.io/github/v/release/AshkanWatson/MediaFlow.svg)](https://github.com/AshkanWatson/MediaFlow/releases)
 
-# YouTubeDn
-> Easy Way To Download Videos From YouTube 
+**MediaFlow** is a **cross-platform media downloader** built with **Flutter** (and optional **Python backend**) that lets you **download videos and images from multiple platforms**:  
 
-Support Platforms:
+- 🎥 **YouTube**  
+- 📸 **Instagram**  
+- 🎨 **Freepik**  
+- 🖼 **Shutterstock**  
+- ➕ **More platforms coming soon!**  
 
-- Windows 10/8.1/8/7
-- Linux (All Versions)
-- Mac (All Versions)
+> **Non-commercial, community-driven project.**  
+> Fork it, contribute, but don’t sell it. 🚫💰
 
-## **Requirement**
-1. Python 3.7 [(Later Version)](https://www.python.org/downloads/release/python-3111/)
-2. pip [(Later Version)](https://www.python.org/downloads/release/python-3111/)
-3. Git [(Later Version)](https://git-scm.com/downloads)
-## **Install**
-You Can Use Git Like ```git clone https://github.com/AshkanWatson/YouTubeDn.git```
+---
 
-**Or**
+## ✨ Features
 
-Use Zip File Download From This Page Or Click On [Download](https://github.com/AshkanWatson/YouTubeDn/archive/refs/heads/YouTubeDn.zip) Button
-## Usage
-### For Windows
+- Multi-platform **video & image downloads**
+- **Cross-platform support**: Android, iOS, Windows, macOS, Linux
+- **Modular architecture** – add new downloaders easily
+- Optional **Python backend** for advanced processing (e.g., video conversion)
+- **Open-source and community-friendly** 🚀
 
-UnZip File And Open YouTubeDn Folder Then By The Numbers First Do First
+---
 
-Double Click On 
-> 1.Command.cmd
+## 📥 Download
 
-Open Command Prompt With ShortCut Key  ```Win + R ```
+Get the **latest release** for your platform from our [Releases Page](https://github.com/AshkanWatson/MediaFlow/releases):
 
-Then Move 
-> 2.YouTubeDownload
+| Platform  | File Type | Download Link |
+|----------|----------|---------------|
+| **Android** | `.apk` | [Download](https://github.com/AshkanWatson/MediaFlow/releases/latest/download/MediaFlow.apk) |
+| **Windows** | `.exe` | [Download](https://github.com/AshkanWatson/MediaFlow/releases/latest/download/MediaFlow.exe) |
+| **macOS** | `.dmg` | [Download](https://github.com/AshkanWatson/MediaFlow/releases/latest/download/MediaFlow.dmg) |
+| **Linux** | `.AppImage` | [Download](https://github.com/AshkanWatson/MediaFlow/releases/latest/download/MediaFlow.AppImage) |
+| **Source Code** | `.zip` | [Download](https://github.com/AshkanWatson/MediaFlow/archive/refs/heads/main.zip) |
 
-To Command Prompt And Give YouTube Link Address To Download
+> ⚡ **Tip:** Upload your builds to the **latest GitHub release** with these exact names to make the above links work automatically.
 
-### For Linux
+---
 
-```git clone https://github.com/AshkanWatson/YouTubeDn.git```
+## 📦 Installation (from Source)
 
-```cd YouTubeDn```
+Clone the repository:
 
-```pip install -r requirements.txt```
+```bash
+git clone https://github.com/AshkanWatson/MediaFlow.git
+cd MediaFlow
+```
 
-### For Mac 
+Install dependencies:
 
+```flutter pub get```
 
+Run the project:
+
+```flutter run```
+
+> [!NOTE]
+> Python is optional for advanced media handling (FFmpeg integration).
+
+---
+
+## 📸 Screenshots (Coming Soon)
+
+| Platform  | File Type | Download Link |
+|----------|----------|---------------|
+
+---
+
+## 🤝 Contributing
+
+We love contributions! 🥳
+
+1. Fork the repo
+2. Create a feature branch
+3. Commit your changes
+4. Open a Pull Request
+
+Check the [CONTRIBUTING.md](https://github.com/AshkanWatson/MediaFlow/blob/main/CONTRIBUTING.md) for full contribution guidelines.
+
+---
+
+## ⚖ License
+
+This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License.
+
+- ✅ Free for personal and educational use
+- ✅ Contributions welcome
+- ❌ Commercial use is NOT allowed
+
+See the [LICENSE](https://github.com/AshkanWatson/MediaFlow/blob/main/LICENSE.md) file for details.
+
+---
+
+## 🚀 Roadmap
+
+- Support TikTok & Pinterest
+- Desktop builds (Windows & macOS)
+- Download queue and history
+- Built-in media converter
+- Multi-language support
+
+---
+
+## 🌎 Community
+
+- 💬 Discussions: [GitHub Discussions](https://github.com/AshkanWatson/MediaFlow/discussions)
+- 🐛 Issues: [Report a Bug](https://github.com/AshkanWatson/MediaFlow/issues)
+- 📥 Latest Downloads: [Releases](https://github.com/AshkanWatson/MediaFlow/releases)
+
+---
+
+Made with ❤️ by AshkanWatson and the MediaFlow Community.
