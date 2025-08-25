@@ -117,4 +117,6 @@ See the [LICENSE](https://github.com/AshkanWatson/MediaFlow/blob/main/LICENSE.md
 
 ---
 
+⭐️ Star MediaFlow if you love open-source media management and seamless content flow!
+
 Made with ❤️ by AshkanWatson and the MediaFlow Community.
