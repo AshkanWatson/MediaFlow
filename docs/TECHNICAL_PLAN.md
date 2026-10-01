@@ -1,6 +1,6 @@
 # MediaFlow — Technical Plan: Media Downloader / Extractor
 
-Status: **planning only**. No UI/UX/design changes and no downloader implementation are part of this document.
+Status: backend core implemented in `backend/` (see [BACKEND.md](BACKEND.md) for the as-built description, API and limitations). Phases 0–5 below are done except CI; Flutter wiring (phase 6) and per-site hardening remain. No UI/UX/design changes were made.
 
 ## 1. Current state (inspected)
 
