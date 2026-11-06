@@ -35,7 +35,7 @@ Create a new branch for your changes:
 ### 3. Make Your Changes
 
 - Add your feature or bug fix.
-- Follow Flutter & Python best practices.
+- Follow Flutter & Python best practices (backend: `cd backend && python -m pytest -q`; see docs/BACKEND.md for adding an extractor).
 - Make sure the project still builds and runs.
 
 ### 4. Commit Your Changes
