@@ -5,7 +5,7 @@
 [![Downloads](https://img.shields.io/github/downloads/AshkanWatson/MediaFlow/total?style=flat-square&label=Downloads&color=black)](https://github.com/AshkanWatson/MediaFlow/releases)
 [![Latest Release](https://img.shields.io/github/v/release/AshkanWatson/MediaFlow?style=flat-square&color=black)](https://github.com/AshkanWatson/MediaFlow/releases)
 
-**MediaFlow** is a **cross-platform media downloader** built with **Flutter** (and optional **Python backend**) that lets you **download videos and images from multiple platforms**:  
+**MediaFlow** is a **cross-platform media downloader** built with **Flutter** and a **Python (FastAPI) backend / core engine** that lets you **download videos and images from multiple platforms**:  
 
 - 🎥 **YouTube**  
 - 📸 **Instagram**  
@@ -23,7 +23,7 @@
 - Multi-platform **video & image downloads**
 - **Cross-platform support**: Android, iOS, Windows, macOS, Linux
 - **Modular architecture** – add new downloaders easily
-- Optional **Python backend** for advanced processing (e.g., video conversion)
+- **Python core engine** (`backend/`): URL validation + SSRF protection, platform adapters, job queue with progress, FFmpeg processing — see [docs/BACKEND.md](docs/BACKEND.md)
 - **Open-source and community-friendly** 🚀
 
 ---
@@ -62,8 +62,21 @@ Run the project:
 
 ```flutter run```
 
+### Backend (core engine)
+
+```bash
+cd backend && pip install -r requirements-dev.txt   # requires ffmpeg/ffprobe
+python -m pytest -q
+uvicorn app:app --host 127.0.0.1 --port 8000        # API docs at /docs
+```
+
+Supported sources: YouTube (formats, audio-only, mp3/m4a), Instagram (public posts/reels; login-gated content is
+refused), Freepik and Shutterstock (public **previews only** — originals require a licence; no watermark removal,
+no authentication/DRM/paywall bypass). Details, API usage, security model, limitations and deployment:
+[docs/BACKEND.md](docs/BACKEND.md) · plan: [docs/TECHNICAL_PLAN.md](docs/TECHNICAL_PLAN.md).
+
 > [!NOTE]
-> Python is optional for advanced media handling (FFmpeg integration).
+> The Flutter app does not call the backend yet; wiring it up is planned future work.
 
 ---
 
